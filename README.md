@@ -2,7 +2,7 @@
 
 In general, this is my first website that was developed by me personally.
 
-Logically, this site consists of two languages: Russian and English.
+This site consists of two languages: Russian and English.
 
 ## Web design
 
