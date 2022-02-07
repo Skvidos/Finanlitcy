@@ -12,3 +12,5 @@ Here is the link to [design](https://www.figma.com/file/JxglVsaWSq3ywesBGlYRkP/F
 After that, I decided to bring this site to life and started writing it slowly.
 
 Now it is not finished yet and in the future I will finalize it.
+
+[Here](https://skvidos.github.io/Finanlitcy/index.html) is a link to my website
