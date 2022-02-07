@@ -7,12 +7,12 @@ $bg: #EEEFEC;
 $gray: #EEEFED;
 
 .main--second {
-  background-image: url(/images/footer-bg.png) !important;
+  background-image: url(../images/footer-bg.png) !important;
   padding-top: 160px !important;
 }
 
 .main--third {
-  background-image: url(/images/footer-bg2.png) !important;
+  background-image: url(../images/footer-bg2.png) !important;
   padding-top: 160px !important;
 }
 
@@ -50,7 +50,7 @@ $gray: #EEEFED;
   color: $black !important;
 
   &::after {
-    background-image: url(/images/ico/arrow4.svg) !important;
+    background-image: url(../images/ico/arrow4.svg) !important;
   }
 }
 
