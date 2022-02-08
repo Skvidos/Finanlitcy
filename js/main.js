@@ -30,4 +30,10 @@ $(function () {
         $("html, body").animate({ scrollTop: 0 }, "slow");
         return false;
     });
+
+    $(".sideMenu").hover(function () {
+        $('.sideMenu__ico-text__box').toggleClass('sideMenu__ico-text__box--active');
+        $('.sideMenu__text').toggleClass('sideMenu__text--active');
+        $('.sideMenu__ico-img').toggleClass('sideMenu__ico-img--active');
+    });
 });

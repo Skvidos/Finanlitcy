@@ -1054,4 +1054,76 @@ button:focus {
   }
 }
 
+.sideMenu__ico-link,
+.sideMenu__settings {
+  display: flex;
+  align-items: center;
+}
+
+.sideMenu__text {
+  font-family: 'Bellota Text', cursive;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: $black
+}
+
+.sideMenu__text-wallet {
+  padding-left: 20px;
+  position: relative;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    background-image: url(../images/ico/coin.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 0;
+    top: 50%;
+    transform: translateY(-50%)
+  }
+}
+
+.sideMenu__text-exchange {
+  padding-left: 20px;
+  position: relative;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 0;
+    background-image: url(../images/ico/discount.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 0;
+    top: 50%;
+    transform: translateY(-50%)
+  }
+}
+
+.sideMenu__ico-img {
+  margin-right: 0px;
+}
+
+.sideMenu__ico-img--active {
+  margin-right: 20px;
+}
+
+.sideMenu__ico-text__box,
+.sideMenu__text {
+  display: none;
+}
+
+.sideMenu__ico-text__box--active,
+.sideMenu__text--active {
+  display: block;
+}
+
 @import url(style-second.css);

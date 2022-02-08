@@ -60,42 +60,55 @@
   </section>
 
   <section class="sideMenu">
-    <div class="sideMenu__inner">
+    <div class=" sideMenu__inner" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
       <ul class="sideMenu__ico-box">
         <li class="sideMenu__ico">
           <a href="#" class="sideMenu__ico-link">
             <img src="images/ico/wallet.svg" alt="" class="sideMenu__ico-img">
+            <div class="sideMenu__ico-text__box">
+              <p class="sideMenu__text">Мой денежный баланс</p>
+              <span class="sideMenu__text-wallet">7 800 699 KZT</span>
+            </div>
           </a>
         </li>
         <li class="sideMenu__ico">
           <a href="#" class="sideMenu__ico-link">
             <img src="images/ico/exchange.svg" alt="" class="sideMenu__ico-img">
+            <div class="sideMenu__ico-text__box">
+              <p class="sideMenu__text">Прибыль</p>
+              <span class="sideMenu__text-exchange">25%</span>
+            </div>
           </a>
         </li>
         <li class="sideMenu__ico">
           <a href="#" class="sideMenu__ico-link">
             <img src="images/ico/profits.svg" alt="" class="sideMenu__ico-img">
+            <span class="sideMenu__text">График прибыли</span>
           </a>
         </li>
         <li class="sideMenu__ico">
           <a href="#" class="sideMenu__ico-link">
             <img src="images/ico/coins.svg" alt="" class="sideMenu__ico-img">
+            <span class="sideMenu__text">Транзакции</span>
           </a>
         </li>
         <li class="sideMenu__ico">
           <a href="#" class="sideMenu__ico-link">
             <img src="images/ico/money-transfer.svg" alt="" class="sideMenu__ico-img">
+            <span class="sideMenu__text">Переводы</span>
           </a>
         </li>
         <li class="sideMenu__ico">
           <a href="#" class="sideMenu__ico-link">
             <img src="images/ico/support.svg" alt="" class="sideMenu__ico-img">
+            <span class="sideMenu__text">Тех. Поддержка </span>
           </a>
         </li>
       </ul>
       <div class="sideMenu__footer">
         <a href="#" class="sideMenu__settings">
-          <img src="images/ico/settings.svg" alt="">
+          <img class="sideMenu__ico-img" src="images/ico/settings.svg" alt="">
+          <span class="sideMenu__text">Настройки</span>
         </a>
       </div>
     </div>
