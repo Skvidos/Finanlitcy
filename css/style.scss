@@ -1064,13 +1064,17 @@ button:focus {
   font-family: 'Bellota Text', cursive;
   font-weight: 700;
   font-size: 20px;
-  line-height: 25px;
   color: $black
 }
 
 .sideMenu__text-wallet {
+  font-family: 'Bellota Text', cursive;
   padding-left: 20px;
   position: relative;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: rgba($black, .75);
 
   &::before {
     content: '';
@@ -1089,8 +1093,13 @@ button:focus {
 }
 
 .sideMenu__text-exchange {
+  font-family: 'Bellota Text', cursive;
   padding-left: 20px;
   position: relative;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: rgba($black, .75);
 
   &::before {
     content: '';
@@ -1124,6 +1133,10 @@ button:focus {
 .sideMenu__ico-text__box--active,
 .sideMenu__text--active {
   display: block;
+}
+
+.sideMenu__ico {
+  max-height: 60px;
 }
 
 @import url(style-second.css);

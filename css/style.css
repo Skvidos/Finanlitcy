@@ -1040,13 +1040,17 @@ button:focus {
   font-family: 'Bellota Text', cursive;
   font-weight: 700;
   font-size: 20px;
-  line-height: 25px;
   color: #453D2B;
 }
 
 .sideMenu__text-wallet {
+  font-family: 'Bellota Text', cursive;
   padding-left: 20px;
   position: relative;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: rgba(69, 61, 43, 0.75);
 }
 
 .sideMenu__text-wallet::before {
@@ -1065,8 +1069,13 @@ button:focus {
 }
 
 .sideMenu__text-exchange {
+  font-family: 'Bellota Text', cursive;
   padding-left: 20px;
   position: relative;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: rgba(69, 61, 43, 0.75);
 }
 
 .sideMenu__text-exchange::before {
@@ -1100,5 +1109,9 @@ button:focus {
 .sideMenu__ico-text__box--active,
 .sideMenu__text--active {
   display: block;
+}
+
+.sideMenu__ico {
+  max-height: 60px;
 }
 /*# sourceMappingURL=style.css.map */
