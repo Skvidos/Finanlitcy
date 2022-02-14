@@ -8,6 +8,11 @@
   padding-top: 160px !important;
 }
 
+.main--third {
+  background-image: url(../images/footer__bg.png) !important;
+  padding-top: 160px !important;
+}
+
 .post__box--second {
   border-radius: 15px !important;
 }
