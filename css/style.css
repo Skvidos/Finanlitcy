@@ -1233,7 +1233,7 @@ button:focus {
   padding: 30px;
   width: 33.3%;
   cursor: pointer;
-  transition: all .2s linear;
+  transition: all .3s linear;
   margin-right: 45px;
 }
 
@@ -1242,6 +1242,7 @@ button:focus {
 }
 
 .post__currency-box:hover {
+  background-color: #ccc;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.342);
 }
 
@@ -1255,5 +1256,132 @@ button:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.post__graph__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post__graph-box__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.post__graph-box {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #EEEFEC;
+  padding: 30px;
+  width: 450px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: all .3s linear;
+}
+
+.post__graph-box:last-child {
+  margin-bottom: 0;
+}
+
+.post__graph-box:hover {
+  background-color: #ccc;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.342);
+}
+
+.post__graph-box-text {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #453D2B;
+  padding-right: 50px;
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+
+.post__graph-box-text--kz {
+  position: relative;
+  width: 330px;
+}
+
+.post__graph-box-text--kz::after {
+  content: "";
+  background-image: url(../images/ico/kz.svg);
+  background-position: 0 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.post__graph-box-text--ru {
+  position: relative;
+  width: 330px;
+}
+
+.post__graph-box-text--ru::after {
+  content: "";
+  background-image: url(../images/ico/ru.svg);
+  background-position: 0 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.post__graph-box-text--us {
+  position: relative;
+  width: 330px;
+}
+
+.post__graph-box-text--us::after {
+  content: "";
+  background-image: url(../images/ico/us.svg);
+  background-position: 0 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.post__graph-box-percent {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #453D2B;
+  padding-left: 50px;
+  position: relative;
+}
+
+.post__graph-box-percent::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/ico/exchange.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 /*# sourceMappingURL=style.css.map */
