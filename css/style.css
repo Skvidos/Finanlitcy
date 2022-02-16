@@ -1242,7 +1242,6 @@ button:focus {
 }
 
 .post__currency-box:hover {
-  background-color: #ccc;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.342);
 }
 
@@ -1260,8 +1259,7 @@ button:focus {
 
 .post__graph__inner {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-start;
 }
 
 .post__graph-box__inner {
@@ -1285,8 +1283,11 @@ button:focus {
 }
 
 .post__graph-box:hover {
-  background-color: #ccc;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.342);
+}
+
+.post__graph-box--active {
+  background-color: #ccc;
 }
 
 .post__graph-box-text {
@@ -1383,5 +1384,54 @@ button:focus {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.post__graph-graph__text {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #453D2B;
+}
+
+.post__graph-graph-nav {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: rgba(69, 61, 43, 0.5);
+  border-bottom: 1px solid transparent;
+  transition: all .3s linear;
+}
+
+.post__graph-graph-nav:hover {
+  border-bottom: 1px solid rgba(69, 61, 43, 0.5);
+}
+
+.post__graph-graph-nav--active {
+  color: #453D2B;
+}
+
+.post__graph-graph__box {
+  width: 100%;
+  margin-left: 85px;
+  position: relative;
+}
+
+.post__graph-graph__text-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cursor {
+  position: absolute;
+  right: 115px;
+  bottom: 97px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #EAC682;
+  border-radius: 50%;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
