@@ -231,41 +231,38 @@
         <div class="post__box post__box--50">
           <div class="post__box-inner">
             <div class="post__title">ПЕРЕВОДЫ</div>
-            <div class="post___subtext">История транзакций </div>
-            <table class="post__table">
-              <tr class="post__table-bb">
-                <th class="post__transactions--time">01.01.21 00:00</th>
-                <th class="post__transactions--price">+100 000 kzt</th>
-              </tr>
-              <tr class="post__table-bb">
-                <th class="post__transactions--time">02.01.21 12:43</th>
-                <th class="post__transactions--price">+50 500 kzt</th>
-              </tr>
-              <tr class="post__table-bb">
-                <th class="post__transactions--time">05.01.21 18:48</th>
-                <th class="post__transactions--price">-5 000 rub</th>
-              </tr>
-              <tr class="post__table-bb">
-                <th class="post__transactions--time">09.01.21 21:27</th>
-                <th class="post__transactions--price">+100 USD</th>
-              </tr>
-              <tr class="post__table-bb">
-                <th class="post__transactions--time">11.01.21 15:36</th>
-                <th class="post__transactions--price">+325 500 kzt</th>
-              </tr>
-              <tr class="post__table-bb">
-                <th class="post__transactions--time">18.01.21 17:27</th>
-                <th class="post__transactions--price">-50 000 kzt</th>
-              </tr>
-              <tr class="post__table-bb">
-                <th class="post__transactions--time">26.01.21 13:45</th>
-                <th class="post__transactions--price">+50 USD</th>
-              </tr>
-              <tr class="post__table-bb">
-                <th class="post__transactions--time">29.01.21 21:27</th>
-                <th class="post__transactions--price">-100 USD</th>
-              </tr>
-            </table>
+            <div class="post___subtext">ПЕРЕВОД МЕЖДУ СЧЕТАМИ</div>
+            <div class="post__transfer-wrapper">
+              <div class="post__transfer">
+                <input type="text" class="post__transfer-input" placeholder="СУММА">
+                <div class="post__transfer-value post__transfer-value--ru">RUB</div>
+              </div>
+
+              <div class="post__transfer">
+                <input type="text" class="post__transfer-input" placeholder="СУММА">
+                <div class="post__transfer-value post__transfer-value--us">USD</div>
+              </div>
+            </div>
+            <div class="post___subtext">ПЕРЕВОД МЕЖДУ БАНКОВСКИМИ КАРТАМИ</div>
+            <div class="post__transfer-card">
+              <input type="text" class="post__transfer-input post__transfer-input--100" placeholder="Введите сумму">
+              <div class="post__transfer-value post__transfer-value--kz">KZT</div>
+            </div>
+            <input type="text" class="post__transfer-input post__transfer-input--100"
+              placeholder="Укажите номер банковской карты для перевода денег">
+            <div class="post__transfer-card--inner">
+              <div>
+                <input type="text" class="post__transfer-input post__transfer-input--50px" placeholder="ММ">
+                <span>/</span>
+                <input type="text" class="post__transfer-input post__transfer-input--50px" placeholder="ГГ">
+              </div>
+              <div>
+                <input type="text" class="post__transfer-input post__transfer-input--60px" placeholder="СVC">
+              </div>
+            </div>
+            <div class="btn__right">
+              <button class="btn">ОПЛАТИТЬ</button>
+            </div>
           </div>
         </div>
       </div>

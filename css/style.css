@@ -38,6 +38,31 @@ button:focus {
   outline: none;
 }
 
+.btn {
+  font-family: 'Bellota Text', cursive;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 31px;
+  color: #453D2B;
+  padding: 10px 25px;
+  background: #CCCCCC;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  align-items: right;
+  transition: all .3s linear;
+}
+
+.btn:hover {
+  background-color: rgba(69, 61, 43, 0.15);
+}
+
+.btn__right {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -1481,7 +1506,150 @@ button:focus {
 
 .post__box-inner-50 {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
+  height: 750px;
+}
+
+.post__transfer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.post__transfer-wrapper::after {
+  content: "";
+  display: block;
+  width: 13px;
+  height: 22px;
+  background-image: url(../images/ico/arrow6.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 50%;
+}
+
+.post__transfer {
+  position: relative;
+  width: 50%;
+  padding: 50px 10px 40px;
+  background: #EEEFEC;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-right: 35px;
+  transition: all .3s linear;
+}
+
+.post__transfer:last-child {
+  margin-right: 0;
+}
+
+.post__transfer:hover {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.342);
+}
+
+.post__transfer-card {
+  position: relative;
+  width: 100%;
+}
+
+.post__transfer-input {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #453D2B;
+  padding: 10px;
+}
+
+.post__transfer-input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.post__transfer-value {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #453D2B;
+  padding-right: 65px;
+  cursor: pointer;
+}
+
+.post__transfer-value--ru::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/ico/ru.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 0;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.post__transfer-value--us::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/ico/us.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 0;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.post__transfer-value--kz::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/ico/kz.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 0;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.post__transfer-value::after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 7px;
+  background-image: url(../images/ico/arrow5.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 0;
+  position: absolute;
+  right: -5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.post__transfer-card--inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=style.css.map */
