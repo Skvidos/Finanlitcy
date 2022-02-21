@@ -67,4 +67,22 @@
 .post__transfer-input--60px {
   width: 60px;
 }
+
+.post__graph-box-percent--downArrows::before {
+  background-image: url(../images/ico/downArrows.svg) !important;
+}
+
+.post__graph-box-percent--upArrows::before {
+  background-image: url(../images/ico/upArrows.svg) !important;
+}
+
+.cursor--yellow {
+  bottom: 263px !important;
+}
+
+.cursor--brown {
+  bottom: 226px !important;
+  right: 113px !important;
+  background-color: #453D2B !important;
+}
 /*# sourceMappingURL=style-second.css.map */
