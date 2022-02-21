@@ -1718,4 +1718,13 @@ button:focus {
   top: 50%;
   transform: translateY(-50%);
 }
+
+.post__subtitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #453D2B;
+  margin-bottom: 50px;
+}
 /*# sourceMappingURL=style.css.map */
