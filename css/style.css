@@ -273,6 +273,14 @@ button:focus {
   z-index: 100;
 }
 
+.post__box--50 {
+  width: 49%;
+  padding: 100px 80px;
+  height: 100%;
+  display: block;
+  z-index: 0;
+}
+
 .post__box-wrapper {
   display: flex;
   justify-content: space-between;
@@ -1433,5 +1441,47 @@ button:focus {
   background-color: #EAC682;
   border-radius: 50%;
   cursor: pointer;
+}
+
+.post___subtext {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #453D2B;
+  margin-bottom: 40px;
+}
+
+.post__table {
+  width: 100%;
+  text-align: left;
+  padding: 15px 16px;
+}
+
+.post__transactions--time {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #453D2B;
+}
+
+.post__transactions--price {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #866F42;
+}
+
+.post__table-bb {
+  border-bottom: 1px solid rgba(69, 61, 43, 0.15);
+  padding: 5px;
+}
+
+.post__box-inner-50 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 /*# sourceMappingURL=style.css.map */
