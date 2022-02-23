@@ -1593,9 +1593,14 @@ button:focus {
   color: #453D2B;
   padding-right: 65px;
   cursor: pointer;
+  display: none;
 }
 
-.post__transfer-value--ru::before {
+.post__transfer-value--active {
+  display: block;
+}
+
+.post__transfer-value-ru::before {
   content: "";
   display: block;
   width: 40px;
@@ -1610,7 +1615,15 @@ button:focus {
   transform: translateY(-50%);
 }
 
-.post__transfer-value--us::before {
+.post__transfer-value-ru--active {
+  display: block;
+}
+
+.post__transfer-value-ru--nactive {
+  display: none;
+}
+
+.post__transfer-value-us::before {
   content: "";
   display: block;
   width: 40px;
@@ -1625,7 +1638,15 @@ button:focus {
   transform: translateY(-50%);
 }
 
-.post__transfer-value--kz::before {
+.post__transfer-value-us--active {
+  display: block !important;
+}
+
+.post__transfer-value-us--nactive {
+  display: none;
+}
+
+.post__transfer-value-kz::before {
   content: "";
   display: block;
   width: 40px;
@@ -1638,6 +1659,24 @@ button:focus {
   right: 15px;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.post__transfer-value-kz--active {
+  display: block;
+}
+
+.post__transfer-value-kz--nactive {
+  display: none;
+}
+
+.post__transfer-value--nactive {
+  display: none;
+}
+
+.post__transfer-value--list {
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
 }
 
 .post__transfer-value::after {
@@ -1653,6 +1692,53 @@ button:focus {
   right: -5px;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.post__transfer-value_list {
+  position: absolute;
+  right: 0;
+  background-color: #fff;
+  border-radius: 5px;
+  display: block;
+  width: 130px;
+  height: 110px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  display: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.post__transfer-value_list--active {
+  display: block;
+}
+
+.post__transfer-value-ru_list--active {
+  display: block;
+}
+
+.post__transfer-value-ru_list--nactive {
+  display: none;
+}
+
+.post__transfer-value-us_list--active {
+  display: block;
+}
+
+.post__transfer-value-us_list--nactive {
+  display: none;
+}
+
+.post__transfer-value-kz_list--active {
+  display: block;
+}
+
+.post__transfer-value-kz_list--nactive {
+  display: none;
+}
+
+.post__transfer-value__list {
+  position: relative;
+  margin-bottom: 10px;
 }
 
 .post__transfer-card--inner {
