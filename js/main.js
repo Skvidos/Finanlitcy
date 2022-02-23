@@ -51,6 +51,7 @@ $(function () {
         $('.post__transfer-value-us_list--active').removeClass('post__transfer-value-us_list--active').addClass('post__transfer-value-us_list--nactive');
         $('.post__transfer-value-kz_list--nactive').removeClass('post__transfer-value-kz_list--nactive').addClass('post__transfer-value-kz_list--active');
         $('.post__transfer-value-ru_list--nactive').removeClass('post__transfer-value-ru_list--nactive').addClass('post__transfer-value-ru_list--active');
+        return false;
     })
 
     //KZT
@@ -63,7 +64,8 @@ $(function () {
         $('.post__transfer-value-kz_list--active').removeClass('post__transfer-value-kz_list--active').addClass('post__transfer-value-kz_list--nactive');
         $('.post__transfer-value-en_list--nactive').removeClass('post__transfer-value-en_list--nactive').addClass('post__transfer-value-en_list--active');
         $('.post__transfer-value-ru_list--nactive').removeClass('post__transfer-value-ru_list--nactive').addClass('post__transfer-value-ru_list--active');
-    })
+        return false;
+    });
 
     //RUB
 
@@ -75,6 +77,22 @@ $(function () {
         $('.post__transfer-value-kz_list--nactive').removeClass('post__transfer-value-kz_list--nactive').addClass('post__transfer-value-kz_list--active');
         $('.post__transfer-value-en_list--nactive').removeClass('post__transfer-value-en_list--nactive').addClass('post__transfer-value-en_list--active');
         $('.post__transfer-value-ru_list--active').removeClass('post__transfer-value-ru_list--active').addClass('post__transfer-value-ru_list--nactive');
-    })
+        return false;
+    });
+
+    //Scrolling
+
+    $('.sideMenu__ico a').on('click', function (e) {
+
+        var href = $(this).attr('href');
+
+        $('html, body').animate({
+            scrollTop: $(href).offset().top - 110
+        }, '300');
+
+        e.preventDefault();
+
+    });
+
 
 });
