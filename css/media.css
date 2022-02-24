@@ -56,5 +56,11 @@
   .post__transfer-input {
     font-size: 15px !important;
   }
+  .post__graph-box-percent {
+    font-size: 20px !important;
+  }
+  .post__subtitle {
+    font-size: 17px !important;
+  }
 }
 /*# sourceMappingURL=media.css.map */
