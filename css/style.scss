@@ -1,3 +1,6 @@
+@import url(style-second.css);
+@import url(media.css);
+
 $black: #453D2B;
 $accent: #EAC682;
 $second-accent: #E1BC75;
@@ -103,6 +106,9 @@ button:focus {
   position: relative;
   cursor: pointer;
   margin-left: 10px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
 
   &::after {
     content: "";
@@ -141,12 +147,6 @@ button:focus {
   &:hover {
     background-color: #f8deb4;
   }
-}
-
-.lang-ru {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 38px;
 }
 
 .header__nav-link {
@@ -1853,5 +1853,3 @@ button:focus {
   color: $black;
   margin-bottom: 50px;
 }
-
-@import url(style-second.css);

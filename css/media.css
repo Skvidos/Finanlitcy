@@ -1,0 +1,24 @@
+@media (max-width: 1600px) {
+  .header__nav-link {
+    font-size: 20px !important;
+  }
+  .header__login {
+    font-size: 20px !important;
+  }
+  .lang-switcher {
+    font-size: 20px !important;
+  }
+  .header__logo img {
+    width: 130px;
+  }
+  .lang-en {
+    bottom: 6px !important;
+  }
+  .header__search-box {
+    bottom: -64px !important;
+  }
+  .container {
+    max-width: 1220px !important;
+  }
+}
+/*# sourceMappingURL=media.css.map */
