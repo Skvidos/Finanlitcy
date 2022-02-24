@@ -1473,6 +1473,30 @@ button:focus {
   cursor: pointer;
 }
 
+.cursor--yellow {
+  bottom: 265px;
+  position: absolute;
+  right: 115px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #EAC682;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.cursor--brown {
+  bottom: 226px;
+  right: 113px;
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #453D2B;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 .post___subtext {
   font-weight: 700;
   font-size: 20px;
