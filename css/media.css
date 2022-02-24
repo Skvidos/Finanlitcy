@@ -83,5 +83,27 @@
     bottom: 130px !important;
     right: 45px !important;
   }
+  .intro__img img {
+    width: 750px !important;
+  }
+  .intro__slogan {
+    font-size: 25px !important;
+    line-height: 29px !important;
+  }
+  .intro__text {
+    font-size: 18px !important;
+    line-height: 23px !important;
+  }
+  .intro__btn {
+    padding: 10px 60px 9px !important;
+    width: 265px !important;
+  }
+  .post__text {
+    font-size: 18px !important;
+    line-height: 23px !important;
+  }
+  .post__img img {
+    width: 500px;
+  }
 }
 /*# sourceMappingURL=media.css.map */
