@@ -47,5 +47,14 @@
   .cursor {
     right: 48px !important;
   }
+  .post__transactions--time {
+    font-size: 20px !important;
+  }
+  .post__transactions--price {
+    font-size: 20px !important;
+  }
+  .post__transfer-input {
+    font-size: 15px !important;
+  }
 }
 /*# sourceMappingURL=media.css.map */
