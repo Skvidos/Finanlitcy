@@ -62,5 +62,18 @@
   .post__subtitle {
     font-size: 17px !important;
   }
+  .footer__logo-img {
+    width: 230px !important;
+  }
+  .footer__nav-link {
+    font-size: 20px !important;
+    line-height: 25px !important;
+  }
+  .footer__copy {
+    font-size: 15px !important;
+  }
+  .footer__link {
+    font-size: 15px !important;
+  }
 }
 /*# sourceMappingURL=media.css.map */
