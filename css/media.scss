@@ -197,4 +197,30 @@
   .post__main-source-link {
     font-size: 15px !important;
   }
+
+  .post__box-services__item {
+    width: 300px !important;
+    height: 150px !important;
+    margin-bottom: 80px !important;
+  }
+
+  .post__box-services__item-img1,
+  .post__box-services__item-img2,
+  .post__box-services__item-img3,
+  .post__box-services__item-img4,
+  .post__box-services__item-img5,
+  .post__box-services__item-img6 {
+    width: 300px !important;
+    height: 200px !important;
+    padding: 20px 20px 35px !important;
+  }
+
+  .post__box-services__text {
+    line-height: 25px !important;
+    margin: 15px 0 10px !important;
+  }
+
+  .post__box-services__price {
+    font-size: 15px !important;
+  }
 }
