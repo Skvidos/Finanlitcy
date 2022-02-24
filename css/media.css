@@ -126,5 +126,8 @@
   .post__slider-text {
     max-width: 200px !important;
   }
+  .post__img-full {
+    width: 100% !important;
+  }
 }
 /*# sourceMappingURL=media.css.map */
