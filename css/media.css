@@ -105,5 +105,26 @@
   .post__img img {
     width: 500px;
   }
+  .post__more {
+    font-size: 17px !important;
+  }
+  .post__slider-item {
+    width: 250px !important;
+    height: 350px !important;
+    margin-right: 17px !important;
+  }
+  .post__slider-item img {
+    width: 250px !important;
+  }
+  .post__slider-text {
+    font-size: 25px !important;
+    line-height: 30px !important;
+  }
+  .slick-slider {
+    height: 400px !important;
+  }
+  .post__slider-text {
+    max-width: 200px !important;
+  }
 }
 /*# sourceMappingURL=media.css.map */
