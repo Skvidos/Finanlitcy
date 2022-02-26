@@ -16,14 +16,15 @@ $(function () {
         arrows: false
     });
 
-    $('.post__slider-reviews').slick({
-        infinite: false,
-        centerMode: true,
-        centerPadding: '60px',
+    $('.post__slider-reviews-1').slick({
+        infinite: true,
         slidesToShow: 3,
-        focusOnSelect: true
-        //autoplay: true,
-        //autoplaySpeed: 5000,
+        slidesToScroll: 1,
+        focusOnSelect: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        prevArrow: '<button class="slider-btn slider-btn__left"><img src="/images/ico/arrows/arrow-left.svg" alt=""></button>',
+        nextArrow: '<button class="slider-btn slider-btn__right"><img src="/images/ico/arrows/arrow-right.svg" alt=""></button>',
     });
 
     $(".footer__btn").click(function () {

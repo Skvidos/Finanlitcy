@@ -407,11 +407,11 @@ button:focus {
 .post__reviews-item {
   border-radius: 5px;
   background-color: $bg;
-  min-width: 550px;
+  max-width: 550px;
   max-height: 250px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   padding: 20px 40px 60px;
-
+  margin-right: 15px;
 }
 
 .post__reviews__name-box {
@@ -473,8 +473,25 @@ button:focus {
   transform: translate3d(0px, 0px, 0px) !important;
 }
 
-.post__slider-reviews .slick-list draggable {
-  padding: 0 !important;
+.slider-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  z-index: 100;
+}
+
+.slider-btn__left {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider-btn__right {
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .footer {
