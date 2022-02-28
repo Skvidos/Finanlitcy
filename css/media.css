@@ -169,5 +169,13 @@
   .post__box-services__price {
     font-size: 15px !important;
   }
+  .slider-btn__right,
+  .slider-btn__left {
+    top: 30% !important;
+  }
+  .post__reviews-item {
+    margin-right: 19px !important;
+    max-width: 560px !important;
+  }
 }
 /*# sourceMappingURL=media.css.map */

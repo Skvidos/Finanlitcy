@@ -25,6 +25,14 @@ $(function () {
         autoplaySpeed: 5000,
         prevArrow: '<button class="slider-btn slider-btn__left"><img src="/images/ico/arrows/arrow-left.svg" alt=""></button>',
         nextArrow: '<button class="slider-btn slider-btn__right"><img src="/images/ico/arrows/arrow-right.svg" alt=""></button>',
+        responsive: [
+            {
+                breakpoint: 1600,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+        ]
     });
 
     $(".footer__btn").click(function () {
