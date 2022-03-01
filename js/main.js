@@ -21,7 +21,16 @@ $(function () {
         slidesToScroll: 4,
         autoplay: true,
         autoplaySpeed: 5000,
-        arrows: false
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 1230,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                }
+            },
+        ]
     });
 
     $('.post__slider-reviews-1').slick({

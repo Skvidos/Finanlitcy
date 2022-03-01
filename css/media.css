@@ -178,4 +178,19 @@
     max-width: 560px !important;
   }
 }
+
+@media (max-width: 1230px) {
+  .container {
+    padding: 0 10px;
+  }
+  .intro__img img {
+    width: 600px !important;
+  }
+  .intro__content {
+    padding-left: 50px !important;
+  }
+  .intro__content {
+    max-width: 50% !important;
+  }
+}
 /*# sourceMappingURL=media.css.map */
