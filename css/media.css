@@ -217,6 +217,66 @@
   .post__slider-reviews-1 {
     height: 250px !important;
   }
+  .post__currency-box {
+    margin-right: 10px !important;
+  }
+  .post__currency-btn::after {
+    right: 10px !important;
+  }
+  .post__graph-box {
+    width: 340px !important;
+  }
+  .post__graph-graph__box {
+    margin-left: 30px !important;
+    width: 60% !important;
+  }
+  .post__graph-graph-img {
+    width: 570px !important;
+    margin-top: 10px !important;
+  }
+  .post__box--50 {
+    margin: 0 !important;
+  }
+  .post__box--50:first-child {
+    margin-left: 68px !important;
+    width: 38% !important;
+  }
+  .post__box--50:last-child {
+    margin-right: 68px !important;
+    width: 48% !important;
+  }
+  .post__transfer-wrapper::after {
+    left: 52% !important;
+  }
+  .post__graph-box-percent {
+    font-size: 15px !important;
+    padding-left: 40px !important;
+  }
+  .post__graph-box-percent::before {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .cursor {
+    right: 28px !important;
+    bottom: 156px !important;
+  }
+  .post__transfer {
+    margin-right: 25px !important;
+  }
+  .cursor--yellow {
+    bottom: 303px !important;
+    right: 30px !important;
+  }
+  .cursor--brown {
+    bottom: 270px !important;
+    right: 27px !important;
+  }
+  .post__subtitle {
+    font-size: 16px !important;
+  }
+  .main {
+    padding-bottom: 100px !important;
+  }
 }
 
 @media (max-height: 500px) {
