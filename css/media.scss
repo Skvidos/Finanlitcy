@@ -254,3 +254,25 @@
     max-width: 50% !important;
   }
 }
+
+@media (max-height: 500px) {
+  .intro__content {
+    margin-top: 50px !important;
+  }
+}
+
+@media (max-height: 450px) {
+  .intro__slogan {
+    font-size: 20px !important;
+    line-height: 25px !important;
+  }
+
+  .intro__text {
+    font-size: 16px !important;
+    line-height: 20px !important;
+  }
+
+  .intro__btn {
+    margin-top: 15px;
+  }
+}
