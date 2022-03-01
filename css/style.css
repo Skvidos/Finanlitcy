@@ -78,6 +78,10 @@ button:focus {
   display: none;
 }
 
+.modal--active {
+  display: block;
+}
+
 .modal__wrapper {
   height: 100vh;
   display: flex;
@@ -1059,6 +1063,7 @@ button:focus {
   padding-right: 26px;
   position: relative;
   color: #453D2B;
+  cursor: pointer;
 }
 
 .post__share::after {

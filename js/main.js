@@ -5,7 +5,15 @@ $(function () {
 
     $('.lang-switcher').on('click', function () {
         $('.lang-en').toggleClass('lang-en--active')
-    })
+    });
+
+    $('.post__share').on('click', function () {
+        $('.modal').addClass('modal--active')
+    });
+
+    $('.modal__close').on('click', function () {
+        $('.modal').removeClass('modal--active')
+    });
 
     $('.post__slider').slick({
         infinite: true,

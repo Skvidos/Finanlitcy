@@ -88,6 +88,10 @@ button:focus {
   display: none;
 }
 
+.modal--active {
+  display: block;
+}
+
 .modal__wrapper {
   height: 100vh;
   display: flex;
@@ -1086,6 +1090,7 @@ button:focus {
   padding-right: 26px;
   position: relative;
   color: $black;
+  cursor: pointer;
 
   &::after {
     content: '';
