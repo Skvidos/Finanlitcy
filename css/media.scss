@@ -253,6 +253,38 @@
   .intro__content {
     max-width: 50% !important;
   }
+
+  .post__box {
+    padding: 60px 70px 50px !important;
+    margin: 0 65px 80px !important;
+  }
+
+  .post__img img {
+    width: 430px !important;
+  }
+
+  .post__text {
+    font-size: 18px !important;
+    line-height: 23px !important;
+  }
+
+  .post__box-services__content {
+    margin-top: 15px !important;
+  }
+
+  .post__main-text {
+    font-size: 18px !important;
+    line-height: 23px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .post__main-img {
+    width: 430px !important;
+  }
+
+  .post__slider-reviews-1 {
+    height: 250px !important;
+  }
 }
 
 @media (max-height: 500px) {
@@ -275,4 +307,15 @@
   .intro__btn {
     margin-top: 15px;
   }
+}
+
+@media (max-width: 1170px) {
+  .intro__img img {
+    width: 500px !important;
+  }
+
+  .intro__content {
+    max-width: 55% !important;
+  }
+
 }
