@@ -365,6 +365,13 @@
   }
 }
 
+@media (max-width: 1170px) {
+  .post__box {
+    padding: 60px 50px 50px !important;
+    margin: 0 65px 80px !important;
+  }
+}
+
 @media (max-height: 580px) {
   .sideMenu__inner {
     padding: 100px 0 25px !important;
