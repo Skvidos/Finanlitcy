@@ -179,6 +179,32 @@
   }
 }
 
+<<<<<<< Updated upstream
+=======
+@media (max-width: 1360px) {
+  .footer__social {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  .footer__top {
+    flex-wrap: wrap !important;
+    justify-content: space-evenly !important;
+  }
+  .footer__social-box {
+    display: flex !important;
+    order: 4 !important;
+    padding: 0 100px !important;
+  }
+  .footer__link {
+    padding: 0 15px !important;
+  }
+  .footer__copy {
+    margin-left: 20px !important;
+    padding-left: 50px !important;
+  }
+}
+
+>>>>>>> Stashed changes
 @media (max-width: 1230px) {
   .container {
     padding: 0 10px;
