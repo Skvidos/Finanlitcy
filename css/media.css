@@ -279,6 +279,54 @@
   }
 }
 
+@media (max-width: 1170px) {
+  .post__box {
+    padding: 45px 45px 50px !important;
+    margin: 0 100px 50px !important;
+  }
+  .post__currency-btn {
+    font-size: 16px !important;
+  }
+  .post__currency-box {
+    padding: 20px !important;
+  }
+  .post__graph-box {
+    padding: 20px !important;
+  }
+  .post__graph-graph-img {
+    width: 490px !important;
+  }
+  .post__graph-graph__box {
+    width: 59% !important;
+  }
+  .cursor {
+    width: 15px !important;
+    height: 15px !important;
+    right: 37px !important;
+    bottom: 137px !important;
+  }
+  .post__box--50 {
+    margin: 0 !important;
+  }
+  .post__box--50:first-child {
+    margin-left: 100px !important;
+    width: 33% !important;
+  }
+  .post__box--50:last-child {
+    margin-right: 100px !important;
+    width: 48% !important;
+  }
+  .post__transfer-wrapper::after {
+    left: 50% !important;
+  }
+  .post__box-inner-50 {
+    height: 690px !important;
+  }
+  .post__subtitle {
+    margin-bottom: 20px !important;
+  }
+}
+
 @media (max-height: 580px) {
   .sideMenu__inner {
     padding: 100px 0 25px !important;
