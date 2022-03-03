@@ -179,8 +179,6 @@
   }
 }
 
-<<<<<<< Updated upstream
-=======
 @media (max-width: 1360px) {
   .footer__social {
     display: flex !important;
@@ -204,8 +202,7 @@
   }
 }
 
->>>>>>> Stashed changes
-@media (max-width: 1230px) {
+@media (max-width: 1380px) {
   .container {
     padding: 0 10px;
   }

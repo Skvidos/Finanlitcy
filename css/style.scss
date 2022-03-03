@@ -606,6 +606,10 @@ button:focus {
   color: $black;
 }
 
+.footer__social-box {
+  display: flex;
+}
+
 .footer__social {
   display: flex;
   flex-direction: column;
