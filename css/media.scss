@@ -459,7 +459,19 @@
     width: 100px !important;
   }
 
-  ;
+  .cursor {
+    right: 84px !important;
+  }
+
+  .cursor--brown {
+    bottom: 222px !important;
+    right: 80px !important;
+  }
+
+  .cursor--yellow {
+    bottom: 251px !important;
+    right: 80px !important;
+  }
 }
 
 @media (max-height: 580px) {
