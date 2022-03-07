@@ -472,6 +472,10 @@
     bottom: 251px !important;
     right: 80px !important;
   }
+
+  .post__box--third {
+    margin: 0 auto !important;
+  }
 }
 
 @media (max-width: 1170px) {
@@ -523,6 +527,10 @@
 
   .post__box-services__price {
     font-size: 20px !important;
+  }
+
+  .post__main-img {
+    width: 400px !important;
   }
 }
 
