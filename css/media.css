@@ -472,6 +472,43 @@
   .cursor--brown {
     right: 15px !important;
   }
+  .post__currency-country-kz,
+  .post__currency-country-ru,
+  .post__currency-country-us {
+    font-size: 20px !important;
+    padding-right: 45px !important;
+  }
+  .post__currency-country-kz::after {
+    width: 35px !important;
+    height: 35px !important;
+  }
+  .post__box-inner-50 {
+    flex-direction: column;
+    height: auto !important;
+  }
+  .post__box--50:first-child,
+  .post__box--50:last-child {
+    width: 852px !important;
+  }
+  .post__box--50:first-child {
+    margin-bottom: 50px !important;
+  }
+  .post__box--50:last-child {
+    margin-right: 0 !important;
+    margin-left: 100px !important;
+  }
+  .post__transfer-wrapper::after {
+    left: 49% !important;
+  }
+  .post__transfer:last-child {
+    margin-right: 0 !important;
+  }
+  .post__transfer {
+    margin-right: 50px !important;
+  }
+  .footer__copy {
+    width: 230px !important;
+  }
 }
 
 @media (max-height: 580px) {
