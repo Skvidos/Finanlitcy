@@ -509,6 +509,56 @@
   .footer__copy {
     width: 230px !important;
   }
+  .post__graph-box-percent::before {
+    width: 20px !important;
+    height: 20px !important;
+  }
+  .post__graph-box-percent {
+    padding-left: 25px !important;
+  }
+}
+
+@media (max-width: 1060px) {
+  .post__graph__inner {
+    flex-direction: column;
+  }
+  .post__graph-box__inner {
+    flex-direction: row !important;
+  }
+  .post__graph-box {
+    display: none;
+  }
+  .post__graph-box--active {
+    display: block;
+  }
+  .post__graph-box-mini__box {
+    order: 0;
+    display: flex !important;
+    justify-content: space-around;
+    padding: 20px 0 !important;
+    width: 100% !important;
+  }
+  .post__currency-country-kz {
+    order: 1;
+  }
+  .post__graph-graph__box {
+    width: 90% !important;
+  }
+  .cursor {
+    bottom: 73px !important;
+    right: 239px !important;
+  }
+  .post__graph-graph__text {
+    width: 210px !important;
+  }
+  .cursor--yellow {
+    right: 235px !important;
+    bottom: 71px !important;
+  }
+  .cursor--brown {
+    right: 235px !important;
+    bottom: 44px !important;
+  }
 }
 
 @media (max-height: 580px) {
