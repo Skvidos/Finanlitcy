@@ -103,12 +103,12 @@
   }
 
   .cursor--yellow {
-    bottom: 168px !important;
+    bottom: 188px !important;
     right: 48px !important;
   }
 
   .cursor--brown {
-    bottom: 130px !important;
+    bottom: 149px !important;
     right: 45px !important;
   }
 
@@ -366,7 +366,7 @@
 
   .cursor {
     right: 28px !important;
-    bottom: 156px !important;
+    bottom: 174px !important;
   }
 
   .post__transfer {
@@ -374,12 +374,12 @@
   }
 
   .cursor--yellow {
-    bottom: 303px !important;
+    bottom: 322px !important;
     right: 30px !important;
   }
 
   .cursor--brown {
-    bottom: 270px !important;
+    bottom: 290px !important;
     right: 27px !important;
   }
 
@@ -426,7 +426,7 @@
     width: 15px !important;
     height: 15px !important;
     right: 37px !important;
-    bottom: 137px !important;
+    bottom: 158px !important;
   }
 
   .post__box--50 {
@@ -464,12 +464,12 @@
   }
 
   .cursor--brown {
-    bottom: 222px !important;
+    bottom: 241px !important;
     right: 80px !important;
   }
 
   .cursor--yellow {
-    bottom: 251px !important;
+    bottom: 271px !important;
     right: 80px !important;
   }
 
@@ -492,12 +492,12 @@
   }
 
   .cursor--yellow {
-    bottom: 251px !important;
+    bottom: 271px !important;
     right: 32px !important;
   }
 
   .cursor--brown {
-    bottom: 222px !important;
+    bottom: 242px !important;
     right: 33px !important;
   }
 
@@ -563,8 +563,8 @@
   }
 
   .cursor {
-    bottom: 215px !important;
-    right: 18px !important;
+    bottom: 234px !important;
+    right: 35px !important;
   }
 
   .post__graph-graph-img {
@@ -580,11 +580,11 @@
   }
 
   .cursor--yellow {
-    bottom: 330px !important;
+    bottom: 347px !important;
   }
 
   .cursor--brown {
-    bottom: 300px !important;
+    bottom: 319px !important;
   }
 
   .post__box-services__item {
@@ -597,12 +597,19 @@
 }
 
 @media (max-width: 1080px) {
+  .cursor {
+    bottom: 234px !important;
+    right: 18px !important;
+  }
+
   .cursor--yellow {
     right: 15px !important;
+    bottom: 318px !important;
   }
 
   .cursor--brown {
     right: 15px !important;
+    bottom: 288px !important;
   }
 
   .post__currency-country-kz,
