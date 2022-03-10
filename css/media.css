@@ -620,6 +620,12 @@
   }
 }
 
+@media (max-width: 1010px) {
+  .footer__link {
+    font-size: 12px !important;
+  }
+}
+
 @media (max-height: 580px) {
   .sideMenu__inner {
     padding: 100px 0 25px !important;
