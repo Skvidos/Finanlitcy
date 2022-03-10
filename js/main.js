@@ -30,6 +30,14 @@ $(function () {
                     slidesToScroll: 3
                 }
             },
+            {
+                breakpoint: 1020,
+                settings: {
+                    infinite: true,
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
         ]
     });
 
@@ -47,6 +55,14 @@ $(function () {
                 breakpoint: 1600,
                 settings: {
                     slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 1025,
+                settings: {
+                    slidesToShow: 1,
+                    centerMode: true,
+                    focusOnSelect: false,
                 }
             },
         ]

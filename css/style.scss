@@ -1472,6 +1472,10 @@ button:focus {
   display: none;
 }
 
+.post__graph-box-mini {
+  cursor: pointer;
+}
+
 .post__currency-box {
   background: $bg;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
