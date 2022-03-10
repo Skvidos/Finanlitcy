@@ -626,6 +626,36 @@
   }
 }
 
+@media (max-width: 960px) {
+  .post__box {
+    padding: 45px 45px 50px !important;
+    margin: 0 70px 50px !important;
+  }
+  .post__box--50:first-child,
+  .post__box--50:last-child {
+    width: 795px !important;
+  }
+  .post__box--50:first-child {
+    margin-left: 73px !important;
+  }
+  .post__box--50:last-child {
+    margin-right: 0 !important;
+    margin-left: 75px !important;
+  }
+  .post__box-inner-50 {
+    margin-bottom: 0 !important;
+  }
+  .sideMenu {
+    display: none !important;
+  }
+  .header__nav {
+    display: none !important;
+  }
+  .burger__box {
+    display: block !important;
+  }
+}
+
 @media (max-height: 580px) {
   .sideMenu__inner {
     padding: 100px 0 25px !important;

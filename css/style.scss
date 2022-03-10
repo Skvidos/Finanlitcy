@@ -79,6 +79,44 @@ button:focus {
   margin: 0 auto;
 }
 
+.burger__box {
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: 0 10px;
+  cursor: pointer;
+  display: none;
+}
+
+.burger {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: $black;
+  position: relative;
+  margin-top: 13px;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: $black;
+    position: absolute;
+    bottom: 8px;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: $black;
+    position: absolute;
+    top: 8px;
+  }
+}
+
 .modal {
   position: fixed;
   z-index: 1000;
