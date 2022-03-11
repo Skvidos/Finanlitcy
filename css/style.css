@@ -1297,6 +1297,12 @@ button:focus {
   top: 0;
   bottom: 0;
   z-index: 90;
+  height: 100vh;
+  display: none;
+}
+
+.sideMenu__burger--active {
+  display: block;
 }
 
 .sideMenu__burger-inner {
@@ -1373,7 +1379,10 @@ button:focus {
 .sideMenu__birger-ico__link {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+}
+
+.sideMenu__burger-ico__img {
+  width: 35px;
 }
 
 .post__currency-value {

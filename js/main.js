@@ -136,5 +136,7 @@ $(function () {
 
     });
 
-
+    $('.burger__box').on('click', function () {
+        $('.sideMenu__burger').toggleClass('sideMenu__burger--active')
+    })
 });
