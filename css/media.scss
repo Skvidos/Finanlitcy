@@ -833,6 +833,127 @@
   }
 }
 
+@media (max-width: 900px) {
+  .intro__img img {
+    width: 400px !important;
+  }
+
+  .intro__content {
+    padding-left: 15px !important;
+  }
+
+  .intro__text {
+    line-height: 20px !important;
+  }
+
+  .intro__slogan {
+    line-height: 26px !important;
+  }
+
+  .main {
+    padding: 40px 0 80px !important;
+  }
+
+  .post__box {
+    margin: 0 15px 40px !important;
+  }
+
+  .footer__logo {
+    padding-left: 0px !important;
+  }
+
+  .footer__logo-img {
+    width: 200px !important;
+  }
+
+  .footer__nav-link {
+    font-size: 18px !important;
+    line-height: 22px !important;
+  }
+
+  .footer__copy {
+    margin-left: 0px !important;
+    padding-left: 10px !important;
+  }
+
+  .footer__app {
+    width: 90px !important;
+  }
+
+  .main--second {
+    padding-top: 100px !important;
+  }
+
+  .post__box--third,
+  .post__box--second {
+    margin: 60px auto 0 !important;
+    padding: 30px 40px 40px !important;
+  }
+
+  .post__sign-title {
+    font-size: 25px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .sign-input {
+    padding: 7px !important;
+    font-size: 18px !important;
+  }
+
+  .post__sign-btns {
+    margin-top: 15px !important;
+  }
+
+  .post__sign-btns__password,
+  .post__sign-door__text,
+  .post__sign-door__link,
+  .post__sign-btns__warning {
+    font-size: 16px !important;
+    line-height: 16px !important;
+  }
+
+  .post__sign-avatar {
+    width: 200px !important;
+  }
+
+  .btn-sign {
+    padding: 11px 60px !important;
+    display: block !important;
+    width: 200px !important;
+    height: 40px !important;
+    font-size: 20px !important;
+    line-height: 20px !important;
+  }
+
+  .btn-sign__google {
+    padding: 11px 0 0 65px !important;
+    display: block !important;
+    width: 200px !important;
+    height: 40px !important;
+    font-size: 10px !important;
+    line-height: 20px !important;
+  }
+
+  .btn-sign__google::before {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .post__box--50:first-child {
+    margin-left: 15px !important;
+  }
+
+  .post__box--50:first-child,
+  .post__box--50:last-child {
+    width: 850px !important;
+  }
+
+  .post__box--50:last-child {
+    margin-right: 0 !important;
+    margin-left: 18px !important;
+  }
+}
+
 @media (max-height: 730px) {
   .sideMenu__burger-inner {
     padding: 65px 0 25px !important;
