@@ -904,6 +904,21 @@
   }
 }
 
+@media (max-height: 530px) {
+  .sideMenu__burger-link {
+    font-size: 15px !important;
+    line-height: 10px !important;
+  }
+
+  .sideMenu__burger-text {
+    font-size: 15px !important;
+  }
+
+  .sideMenu__burger-ico__img {
+    width: 25px !important;
+  }
+}
+
 @media (max-height: 450px) {
   .intro__slogan {
     font-size: 20px !important;
