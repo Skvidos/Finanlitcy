@@ -1050,6 +1050,17 @@
   }
 }
 
+@media (max-width: 830px) {
+  .post__currency-box__inner {
+    flex-direction: column;
+  }
+
+  .post__currency-box {
+    width: 40% !important;
+    margin-bottom: 10px !important;
+  }
+}
+
 @media (max-height: 730px) {
   .sideMenu__burger-inner {
     padding: 65px 0 25px !important;
