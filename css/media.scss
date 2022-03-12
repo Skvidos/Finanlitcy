@@ -961,7 +961,7 @@
 
   .post__box--50:first-child,
   .post__box--50:last-child {
-    width: 787px !important;
+    width: 95% !important;
   }
 
   .footer__apps {
@@ -1058,6 +1058,41 @@
   .post__currency-box {
     width: 40% !important;
     margin-bottom: 10px !important;
+  }
+
+}
+
+@media (max-width: 805px) {
+  .footer__logo {
+    margin-right: 10px !important;
+  }
+
+  .footer__nav-link {
+    margin-right: 30px !important;
+
+    &:nth-child(5),
+    &:nth-child(6),
+    &:nth-child(7),
+    &:nth-child(8) {
+      margin-right: 0 !important;
+    }
+  }
+
+  .footer__social-box {
+    justify-content: center !important;
+  }
+
+  .footer__apps {
+    flex-direction: row !important;
+  }
+
+  .footer__app {
+    width: 120px !important;
+  }
+
+  .footer__top,
+  .footer__bottom {
+    display: none !important;
   }
 }
 

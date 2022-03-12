@@ -2158,4 +2158,45 @@ button:focus {
   color: #453D2B;
   margin-bottom: 50px;
 }
+
+.footer__top-mini__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.footer__nav-mini__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__nav-mini__inner {
+  border-top: 1px solid rgba(69, 61, 43, 0.15);
+  border-bottom: 1px solid rgba(69, 61, 43, 0.15);
+  padding: 20px 0;
+}
+
+.footer__social-mini__inner {
+  padding: 5px 0;
+}
+
+.footer__apps-mini__inner {
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+}
+
+.footer__contacts-mini__inner {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.footer__link-mini__inner {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 30px;
+}
 /*# sourceMappingURL=style.css.map */
