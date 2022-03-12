@@ -865,6 +865,14 @@
   .footer__bottom {
     display: none !important;
   }
+  .footer__top-mini,
+  .footer__nav-mini,
+  .footer__social-mini,
+  .footer__apps-mini,
+  .footer__contacts-mini,
+  .footer__links-mini {
+    display: block !important;
+  }
 }
 
 @media (max-height: 730px) {
