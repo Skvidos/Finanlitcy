@@ -880,7 +880,8 @@
     width: 90px !important;
   }
 
-  .main--second {
+  .main--second,
+  .main--third {
     padding-top: 100px !important;
   }
 
@@ -1060,6 +1061,9 @@
     margin-bottom: 10px !important;
   }
 
+  .post__img img {
+    width: 260px !important;
+  }
 }
 
 @media (max-width: 805px) {
@@ -1102,6 +1106,154 @@
   .footer__contacts-mini,
   .footer__links-mini {
     display: block !important;
+  }
+}
+
+@media (max-width: 770px) {
+  .post__currency-box {
+    width: 50% !important;
+  }
+
+  .btn-sign--third {
+    padding: 11px 50px !important;
+  }
+
+  .main--third {
+    padding-top: 50px !important;
+  }
+
+  .post__main-text,
+  .post__text {
+    font-size: 12px !important;
+    line-height: 16px !important;
+  }
+
+  .post__main-pg {
+    font-size: 15px !important;
+    line-height: 19px !important;
+  }
+
+  .post__title,
+  .post__sign-title {
+    font-size: 20px !important;
+    line-height: 26px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .post__share {
+    font-size: 10px !important;
+    line-height: 13px !important;
+    padding-right: 15px !important;
+  }
+
+  .post__more {
+    font-size: 10px !important;
+    line-height: 13px !important;
+  }
+
+  .post__share::after,
+  .post__more::after {
+    width: 10px !important;
+    height: 10px !important;
+  }
+
+  .post__main-img {
+    max-width: 280px !important;
+  }
+
+  .post__main-source-link {
+    font-size: 10px !important;
+    line-height: 13px !important;
+  }
+
+  .post__currency-value {
+    font-size: 15px !important;
+    line-height: 19px !important;
+  }
+
+  .post__currency-btn {
+    font-size: 15px !important;
+    line-height: 19px !important;
+  }
+
+  .post__currency-btn::after {
+    width: 10px !important;
+    height: 15px !important;
+  }
+
+  .main--third {
+    padding-top: 100px !important;
+  }
+
+  .post__graph-box__inner {
+    flex-direction: column !important;
+  }
+
+  .post__graph-box {
+    order: 1;
+  }
+
+  .post__graph-box-text {
+    font-size: 15px !important;
+    line-height: 19px !important;
+  }
+
+  .post__graph-graph__text {
+    font-size: 15px !important;
+    line-height: 19px !important;
+  }
+
+  .post__graph-graph-nav {
+    font-size: 12px !important;
+    line-height: 20px !important;
+  }
+
+  .post__graph-graph__box {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+
+  .post___subtext {
+    font-size: 15px !important;
+    line-height: 19px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .post__table {
+    border: 1px solid #EEEFEC;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
+    border-radius: 5px !important;
+    padding: 15px 10px !important;
+  }
+
+  .post__transactions--time,
+  .post__transactions--price {
+    font-size: 15px !important;
+    line-height: 16px !important;
+  }
+
+  .post__graph-indicators {
+    top: -18px !important;
+  }
+
+  .post__graph-indicators-yellow,
+  .post__graph-indicators-brown {
+    font-size: 15px !important;
+    padding-left: 20px !important;
+  }
+
+  .post__graph-indicators-yellow::before,
+  .post__graph-indicators-brown::before {
+    width: 15px !important;
+    height: 15px !important;
+  }
+
+  .post__box--third {
+    margin-top: 0 !important;
+  }
+
+  .sign-input {
+    font-size: 15px !important;
   }
 }
 
