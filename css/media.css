@@ -1285,6 +1285,21 @@
   .post__transfer-input--60px {
     width: 60px !important;
   }
+  .modal__img {
+    width: 30px !important;
+  }
+  .modal__box {
+    width: 310px !important;
+    height: 100px !important;
+    padding: 15px 15px 20px !important;
+  }
+  .modal__close::before,
+  .modal__close::after {
+    height: 20px !important;
+  }
+  .modal__inner {
+    margin-top: 5px !important;
+  }
 }
 
 @media (max-width: 360px) {
