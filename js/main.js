@@ -65,6 +65,15 @@ $(function () {
                     focusOnSelect: false,
                 }
             },
+            {
+                breakpoint: 605,
+                settings: {
+                    slidesToShow: 1,
+                    centerMode: true,
+                    focusOnSelect: false,
+                    arrows: false,
+                }
+            },
         ]
     });
 
