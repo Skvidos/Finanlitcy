@@ -1021,7 +1021,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
   .post__transfer-wrapper {
     flex-direction: column !important;
   }
@@ -1153,7 +1153,7 @@
     top: -4px !important;
   }
   .header__logo img {
-    width: 100px !important;
+    width: 85px !important;
   }
   .header__search-box {
     right: 0 !important;
@@ -1303,9 +1303,6 @@
 }
 
 @media (max-width: 360px) {
-  .header__logo img {
-    width: 85px !important;
-  }
   .post__graph-currency-country-kz,
   .post__graph-currency-country-ru,
   .post__graph-currency-country-us {
@@ -1398,6 +1395,18 @@
 @media (max-height: 430px) {
   .sideMenu__burger-title {
     padding: 0px 16px 5px !important;
+  }
+}
+
+@media (max-height: 380px) {
+  .sideMenu__burger-nav {
+    border: none !important;
+  }
+  .sideMenu__burger-link {
+    font-size: 12px !important;
+  }
+  .sideMenu__burger-item__menu {
+    padding: 2px 0 !important;
   }
 }
 /*# sourceMappingURL=media.css.map */
