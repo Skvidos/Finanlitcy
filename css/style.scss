@@ -966,6 +966,11 @@ button:focus {
   margin: 0 10px 0 20px;
 }
 
+.post__sign-btns__input-box {
+  display: flex;
+  align-items: center;
+}
+
 .post__sign-btns__password {
   font-weight: 400;
   font-size: 18px;

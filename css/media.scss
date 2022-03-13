@@ -1491,6 +1491,39 @@
   .post__transfer-input--50px {
     width: 50px !important;
   }
+
+  .post__sign-btns {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  .post__sign-btns__input-box {
+    margin-left: -20px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .main--third,
+  .main--second {
+    padding: 75px 0 30px !important;
+  }
+
+  .modal__img {
+    width: 50px !important;
+  }
+
+  .modal__inner {
+    margin-top: 20px !important;
+  }
+
+  .modal__box {
+    width: 450px !important;
+    height: 140px !important;
+  }
+
+  .post__sign-content {
+    width: 100% !important;
+  }
 }
 
 @media (max-height: 730px) {
