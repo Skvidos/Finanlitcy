@@ -1201,7 +1201,7 @@
 
 @media (max-height: 615px) {
   .sideMenu__burger-title {
-    padding: 20px 16px 10px !important;
+    padding: 0px 16px 10px !important;
   }
 }
 
@@ -1238,9 +1238,11 @@
     margin-top: 50px !important;
   }
   .btn-sign--fourth {
-    font-size: 18px !important;
-    line-height: 18px !important;
-    padding: 6px 25px !important;
+    font-size: 11px !important;
+    line-height: 15px !important;
+    padding: 0px 25px !important;
+    width: 120px !important;
+    height: 30px !important;
   }
 }
 
@@ -1250,10 +1252,16 @@
     line-height: 10px !important;
   }
   .sideMenu__burger-text {
-    font-size: 15px !important;
+    font-size: 12px !important;
   }
   .sideMenu__burger-ico__img {
-    width: 25px !important;
+    width: 20px !important;
+  }
+}
+
+@media (max-height: 430px) {
+  .sideMenu__burger-title {
+    padding: 0px 16px 5px !important;
   }
 }
 /*# sourceMappingURL=media.css.map */
