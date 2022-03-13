@@ -38,6 +38,14 @@ $(function () {
                     slidesToScroll: 1
                 }
             },
+            {
+                breakpoint: 440,
+                settings: {
+                    infinite: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
         ]
     });
 
@@ -70,6 +78,15 @@ $(function () {
                 settings: {
                     slidesToShow: 1,
                     centerMode: true,
+                    focusOnSelect: false,
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 445,
+                settings: {
+                    slidesToShow: 1,
+                    centerMode: false,
                     focusOnSelect: false,
                     arrows: false,
                 }

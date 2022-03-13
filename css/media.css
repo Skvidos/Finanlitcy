@@ -1240,6 +1240,10 @@
   .intro__btn {
     margin-top: 15px !important;
   }
+  .post__reviews-item {
+    padding: 20px 20px 20px !important;
+    max-width: 100% !important;
+  }
 }
 
 @media (max-width: 360px) {
@@ -1248,6 +1252,9 @@
   .post__transfer,
   .post__graph-box-text {
     width: 100% !important;
+  }
+  .header__logo img {
+    width: 85px !important;
   }
 }
 
