@@ -1214,9 +1214,35 @@
   .post__sign-content {
     width: 100% !important;
   }
+  .post__main-second__side {
+    max-width: 100% !important;
+  }
+  .intro__img {
+    transform: translateX(150px) translateY(50%) !important;
+  }
+  .intro__content {
+    max-width: 70% !important;
+  }
+  .post__img {
+    max-width: 100% !important;
+  }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 440px) {
+  .post__img img,
+  .post__main-img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  .footer__links {
+    flex-wrap: wrap !important;
+  }
+  .intro__btn {
+    margin-top: 15px !important;
+  }
+}
+
+@media (max-width: 360px) {
   .post__currency-box,
   .post__graph-box,
   .post__transfer,
