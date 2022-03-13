@@ -1526,6 +1526,16 @@
   }
 }
 
+@media (max-width: 560px) {
+
+  .post__currency-box,
+  .post__graph-box,
+  .post__transfer,
+  .post__graph-box-text {
+    width: 100% !important;
+  }
+}
+
 @media (max-height: 730px) {
   .sideMenu__burger-inner {
     padding: 65px 0 25px !important;
