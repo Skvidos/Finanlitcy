@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Finanlitcy | Profile</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/slick.css">
+  <link rel="stylesheet" href="../css/jquery.fancybox.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bellota+Text:wght@400;700&family=PT+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+  <section class="modal">
+    <div class="modal__wrapper">
+      <div class="modal__box">
+        <button class="modal__close"></button>
+        <div class="modal__inner">
+          <a href="#" class="modal__link">
+            <img class="modal__img" src="../images/ico/modal/facebook.svg" alt="">
+          </a>
+
+          <a href="#" class="modal__link">
+            <img class="modal__img" src="../images/ico/modal/pinterest.svg" alt="">
+          </a>
+
+          <a href="#" class="modal__link">
+            <img class="modal__img" src="../images/ico/modal/instagram.svg" alt="">
+          </a>
+
+          <a href="#" class="modal__link">
+            <img class="modal__img" src="../images/ico/modal/telegram.svg" alt="">
+          </a>
+
+          <a href="#" class="modal__link">
+            <img class="modal__img" src="../images/ico/modal/twitter.svg" alt="">
+          </a>
+
+          <a href="#" class="modal__link">
+            <img class="modal__img" src="../images/ico/modal/vk.svg" alt="">
+          </a>
+
+          <a href="#" class="modal__link">
+            <img class="modal__img" src="../images/ico/modal/copy 1.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__side-left">
+          <div class="burger__box">
+            <span class="burger"></span>
+          </div>
+          <a href="index.html" class="header__logo">
+            <img src="../images/logo.png" alt="">
+          </a>
+          <ul class="lang-switcher">
+            <a href="#" class="lang-ru">
+              <li>EN</li>
+            </a>
+            <a href="#" class="lang-en">
+              <li>RU</li>
+            </a>
+          </ul>
+        </div>
+        <div class="header__side-center">
+          <nav class="header__nav">
+            <a href="about.html" class="header__nav-link">ABOUT US</a>
+            <a href="services.html" class="header__nav-link">SERVICES AND PRICES</a>
+            <a href="main.html" class="header__nav-link">HOME</a>
+            <a href="reviews.html" class="header__nav-link">COMMENTS</a>
+          </nav>
+        </div>
+        <div class="header__side-right">
+          <a href="sign-in.html" class="header__login">AUTHORIZATION</a>
+          <a href="#" class="profile__avatar">
+            <img src="https://via.placeholder.com/70" alt="">
+          </a>
+          <div class="header__search">
+            <img src="../images/ico/loupe.svg" alt="">
+          </div>
+          <label class="header__search-box">
+            <input type="search" class="search__box" placeholder="Enter a keyword">
+          </label>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sideMenu">
+    <div class="sideMenu__inner" id="menu">
+      <ul class="sideMenu__ico-box">
+        <li class="sideMenu__ico">
+          <a href="#myBalance" class="sideMenu__ico-link">
+            <img src="../images/ico/wallet.svg" alt="" class="sideMenu__ico-img">
+            <div class="sideMenu__ico-text__box">
+              <p class="sideMenu__text">My cash balance</p>
+              <span class="sideMenu__text-wallet">7 800 699 KZT</span>
+            </div>
+          </a>
+        </li>
+        <li class="sideMenu__ico">
+          <a href="#profit" class="sideMenu__ico-link">
+            <img src="../images/ico/exchange.svg" alt="" class="sideMenu__ico-img">
+            <div class="sideMenu__ico-text__box">
+              <p class="sideMenu__text">Profit</p>
+              <span class="sideMenu__text-exchange">25%</span>
+            </div>
+          </a>
+        </li>
+        <li class="sideMenu__ico">
+          <a href="#profit" class="sideMenu__ico-link">
+            <img src="../images/ico/profits.svg" alt="" class="sideMenu__ico-img">
+            <span class="sideMenu__text">Profit graph</span>
+          </a>
+        </li>
+        <li class="sideMenu__ico">
+          <a href="#transaction" class="sideMenu__ico-link">
+            <img src="../images/ico/coins.svg" alt="" class="sideMenu__ico-img">
+            <span class="sideMenu__text">Transactions</span>
+          </a>
+        </li>
+        <li class="sideMenu__ico">
+          <a href="#transfer" class="sideMenu__ico-link">
+            <img src="../images/ico/money-transfer.svg" alt="" class="sideMenu__ico-img">
+            <span class="sideMenu__text">Transfer</span>
+          </a>
+        </li>
+        <li class="sideMenu__ico">
+          <a href="#support" class="sideMenu__ico-link">
+            <img src="../images/ico/support.svg" alt="" class="sideMenu__ico-img">
+            <span class="sideMenu__text">Support</span>
+          </a>
+        </li>
+      </ul>
+      <div class="sideMenu__footer">
+        <a href="#" class="sideMenu__settings">
+          <img class="sideMenu__ico-img" src="../images/ico/settings.svg" alt="">
+          <span class="sideMenu__text">Settings</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sideMenu__burger">
+    <div class="sideMenu__burger-inner">
+
+      <div class="sideMenu__burger-header">
+        <div class="sideMenu__burger-title">LOGIN NOT COMPLETED</div>
+        <button type="submit" class="btn-sign btn-sign--fourth">SIGN IN</button>
+      </div>
+
+      <ul class="sideMenu__burger-nav">
+        <li class="sideMenu__burger-item__menu">
+          <a href="about.html" class="sideMenu__burger-link">ABOUT US</a>
+        </li>
+        <li class="sideMenu__burger-item__menu">
+          <a href="services.html" class="sideMenu__burger-link">SERVICES AND PRICES</a>
+        </li>
+        <li class="sideMenu__burger-item__menu">
+          <a href="main.html" class="sideMenu__burger-link">HOME</a>
+        </li>
+        <li class="sideMenu__burger-item__menu">
+          <a href="reviews.html" class="sideMenu__burger-link">COMMENT</a>
+        </li>
+      </ul>
+
+      <ul class="sideMenu__burger-box">
+        <li class="sideMenu__burger-item">
+          <a href="#transfer" class="sideMenu__ico-link">
+            <img src="../images/ico/money-transfer.svg" alt="" class="sideMenu__burger-ico__img">
+            <span class="sideMenu__burger-text">Transfer</span>
+          </a>
+        </li>
+        <li class="sideMenu__burger-item">
+          <a href="#transaction" class="sideMenu__ico-link">
+            <img src="../images/ico/coins.svg" alt="" class="sideMenu__burger-ico__img">
+            <span class="sideMenu__burger-text">View transactions</span>
+          </a>
+        </li>
+        <li class="sideMenu__burger-item">
+          <a href="#" class="sideMenu__ico-link">
+            <img src="../images/ico/qiut.svg" alt="" class="sideMenu__burger-ico__img">
+            <span class="sideMenu__burger-text">Go out</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="sideMenu__burger-footer">
+        <a href="#support" class="sideMenu__birger-ico__link">
+          <img src="../images/ico/support.svg" alt="" class="sideMenu__burger-ico__img">
+          <span class="sideMenu__burger-text">Support</span>
+        </a>
+        <a href="#" class="sideMenu__settings">
+          <img class="sideMenu__burger-ico__img" src="../images/ico/settings.svg" alt="">
+          <span class="sideMenu__burger-text">Settings</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="main main--third" id="fullpage">
+    <div class="container">
+      <div class="post__box" id='myBalance'>
+        <h1 class="post__title">My balance</h1>
+        <div class="post__currency-box__inner">
+          <div class="post__currency-box">
+            <div class="post__currency-kzt">
+              <div class="post__currency-value">7 800 699 KZT</div>
+              <div class="post__currency-wrapper">
+                <a href="#" class="post__currency-btn">Top up</a>
+                <div class="post__currency-country-kz">KZT</div>
+              </div>
+            </div>
+          </div>
+          <div class="post__currency-box">
+            <div class="post__currency-kzt">
+              <div class="post__currency-value">1 563 985 RUB</div>
+              <div class="post__currency-wrapper">
+                <a href="#" class="post__currency-btn">Top up</a>
+                <div class="post__currency-country-ru">RUB</div>
+              </div>
+            </div>
+          </div>
+          <div class="post__currency-box">
+            <div class="post__currency-kzt">
+              <div class="post__currency-value">1 589 USD</div>
+              <div class="post__currency-wrapper">
+                <a href="#" class="post__currency-btn">Top up</a>
+                <div class="post__currency-country-us">USD</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="post__box" id='profit'>
+        <h1 class="post__title">Profit</h1>
+        <div class="post__graph__inner">
+          <div class="post__graph-box__inner">
+
+            <div class="post__graph-box">
+              <div class="post__graph-box-text">Total profit percentage</div>
+              <div class="post__graph-box-percent">25%</div>
+            </div>
+
+            <div class="post__graph-box post__graph-box--active">
+              <div class="post__graph-box-text post__graph-box-text--kz">profit percentage kzt</div>
+              <div class="post__graph-box-percent">5%</div>
+            </div>
+
+            <div class="post__graph-box">
+              <div class="post__graph-box-text post__graph-box-text--ru">profit percentage RUB</div>
+              <div class="post__graph-box-percent">15%</div>
+            </div>
+
+            <div class="post__graph-box">
+              <div class="post__graph-box-text post__graph-box-text--us">profit percentage USD</div>
+              <div class="post__graph-box-percent">1%</div>
+            </div>
+
+            <div class="post__graph-box-mini__box">
+              <div class="post__graph-box-mini">
+                <div class="post__graph-currency-country-kz">KZT</div>
+              </div>
+
+              <div class="post__graph-box-mini">
+                <div class="post__graph-currency-country-ru">RUB</div>
+              </div>
+
+              <div class="post__graph-box-mini">
+                <div class="post__graph-currency-country-us">USD</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="post__graph-graph__box">
+            <div class="post__graph-graph__text-inner">
+              <div class="post__graph-graph__text">profit graph kzt</div>
+              <div class="post__graph-graph__links">
+                <a href="#"
+                  class="post__graph-graph-nav post__graph-graph-nav--today post__graph-graph-nav--active">today</a>
+                <a href="#" class="post__graph-graph-nav post__graph-graph-nav--week">week</a>
+                <a href="#" class="post__graph-graph-nav post__graph-graph-nav--month">month</a>
+                <a href="#" class="post__graph-graph-nav post__graph-graph-nav--year">year</a>
+              </div>
+            </div>
+            <img src="../images/graph/3.png" alt="" class="post__graph-graph-img">
+            <div class="cursor"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="post__box-inner-50" id='transaction'>
+        <div class="post__box post__box--50">
+          <div class="post__box-inner">
+            <div class="post__title">TRANSACTIONS</div>
+            <div class="post___subtext">Transaction history</div>
+            <table class="post__table">
+              <tr class="post__table-bb">
+                <th class="post__transactions--time">01.01.21 00:00</th>
+                <th class="post__transactions--price">+100 000 kzt</th>
+              </tr>
+              <tr class="post__table-bb">
+                <th class="post__transactions--time">02.01.21 12:43</th>
+                <th class="post__transactions--price">+50 500 kzt</th>
+              </tr>
+              <tr class="post__table-bb">
+                <th class="post__transactions--time">05.01.21 18:48</th>
+                <th class="post__transactions--price">-5 000 rub</th>
+              </tr>
+              <tr class="post__table-bb">
+                <th class="post__transactions--time">09.01.21 21:27</th>
+                <th class="post__transactions--price">+100 USD</th>
+              </tr>
+              <tr class="post__table-bb">
+                <th class="post__transactions--time">11.01.21 15:36</th>
+                <th class="post__transactions--price">+325 500 kzt</th>
+              </tr>
+              <tr class="post__table-bb">
+                <th class="post__transactions--time">18.01.21 17:27</th>
+                <th class="post__transactions--price">-50 000 kzt</th>
+              </tr>
+              <tr class="post__table-bb">
+                <th class="post__transactions--time">26.01.21 13:45</th>
+                <th class="post__transactions--price">+50 USD</th>
+              </tr>
+              <tr class="post__table-bb">
+                <th class="post__transactions--time">29.01.21 21:27</th>
+                <th class="post__transactions--price">-100 USD</th>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="post__box post__box--50" id='transfer'>
+          <div class="post__box-inner">
+            <div class="post__title">transfer</div>
+            <div class="post___subtext">TRANSFER BETWEEN ACCOUNTS</div>
+            <div class="post__transfer-wrapper">
+              <div class="post__transfer">
+                <input type="text" class="post__transfer-input" placeholder="SUM">
+
+                <div class="post__transfer-value post__transfer-value-ru post__transfer-value-ru--active">RUB</div>
+                <div class="post__transfer-value post__transfer-value-us post__transfer-value-us--nactive">USD</div>
+                <div class="post__transfer-value post__transfer-value-kz post__transfer-value-kz--nactive">KZT</div>
+                <div class="post__transfer-value_list">
+                  <div
+                    class="post__transfer-value post__transfer-value-ru post__transfer-value-ru__list post__transfer-value__list post__transfer-value-ru_list--nactive">
+                    RUB
+                  </div>
+                  <div
+                    class="post__transfer-value post__transfer-value-us post__transfer-value-us__list post__transfer-value__list post__transfer-value-us_list--active">
+                    USD
+                  </div>
+                  <div
+                    class="post__transfer-value post__transfer-value-kz post__transfer-value-kz__list post__transfer-value__list post__transfer-value-kz_list--active">
+                    KZT
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="post__transfer">
+                <input type="text" class="post__transfer-input" placeholder="SUM">
+                <div class="post__transfer-value post__transfer-value-ru post__transfer-value-ru--nactive">RUB</div>
+                <div class="post__transfer-value post__transfer-value-us post__transfer-value-us--active">USD</div>
+                <div class="post__transfer-value post__transfer-value-kz post__transfer-value-kz--nactive">KZT</div>
+                <div class="post__transfer-value_list">
+                  <div
+                    class="post__transfer-value post__transfer-value-ru post__transfer-value-ru__list post__transfer-value__list post__transfer-value-ru_list--active">
+                    RUB
+                  </div>
+                  <div
+                    class="post__transfer-value post__transfer-value-us post__transfer-value-us__list post__transfer-value__list post__transfer-value-us_list--nactive">
+                    USD
+                  </div>
+                  <div
+                    class="post__transfer-value post__transfer-value-kz post__transfer-value-kz__list post__transfer-value__list post__transfer-value-kz_list--active">
+                    KZT
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="post___subtext">TRANSFER BETWEEN BANK CARDS</div>
+            <div class="post__transfer-card">
+              <input type="text" class="post__transfer-input post__transfer-input--100" placeholder="Enter the amount">
+              <div class="post__transfer-value post__transfer-value-kz">KZT</div>
+            </div>
+            <input type="text" class="post__transfer-input post__transfer-input--100"
+              placeholder="Enter your bank card number for money transfer">
+            <div class="post__transfer-card--inner">
+              <div>
+                <input type="text" class="post__transfer-input post__transfer-input--50px" placeholder="ММ">
+                <span>/</span>
+                <input type="text" class="post__transfer-input post__transfer-input--50px" placeholder="ГГ">
+              </div>
+              <div>
+                <input type="text" class="post__transfer-input post__transfer-input--60px" placeholder="СVC">
+              </div>
+            </div>
+            <div class="btn__right">
+              <button class="btn">Pay</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="post__box" id='expenses'>
+        <h1 class="post__title">Expenses and income</h1>
+        <div class="post__graph__inner">
+          <div class="post__graph-box__inner">
+
+            <div class="post__graph-box">
+              <div class="post__graph-box-text">Total expenses and <br> income</div>
+              <div class="post__graph-box-percent-wrapper">
+                <div class="post__graph-box-percent post__graph-box-percent--downArrows">25%</div>
+                <div class="post__graph-box-percent post__graph-box-percent--upArrows">25%</div>
+              </div>
+            </div>
+
+            <div class="post__graph-box post__graph-box--active">
+              <div class="post__graph-box-text post__graph-box-text--kz">The total amount of expenses and income in kzt
+              </div>
+              <div class="post__graph-box-percent-wrapper">
+                <div class="post__graph-box-percent post__graph-box-percent--downArrows">10 589 654</div>
+                <div class="post__graph-box-percent post__graph-box-percent--upArrows">20 569 560</div>
+              </div>
+            </div>
+
+            <div class="post__graph-box">
+              <div class="post__graph-box-text post__graph-box-text--ru">The total amount of expenses and income in RUB
+              </div>
+              <div class="post__graph-box-percent-wrapper">
+                <div class="post__graph-box-percent post__graph-box-percent--downArrows">1 896 325</div>
+                <div class="post__graph-box-percent post__graph-box-percent--upArrows">5 998 365</div>
+              </div>
+            </div>
+
+            <div class="post__graph-box">
+              <div class="post__graph-box-text post__graph-box-text--us">The total amount of expenses and income in USD
+              </div>
+              <div class="post__graph-box-percent-wrapper">
+                <div class="post__graph-box-percent post__graph-box-percent--downArrows">10 569</div>
+                <div class="post__graph-box-percent post__graph-box-percent--upArrows">15 896</div>
+              </div>
+            </div>
+
+            <div class="post__graph-box-mini__box">
+              <div class="post__graph-box-mini">
+                <div class="post__graph-currency-country-kz">KZT</div>
+              </div>
+
+              <div class="post__graph-box-mini">
+                <div class="post__graph-currency-country-ru">RUB</div>
+              </div>
+
+              <div class="post__graph-box-mini">
+                <div class="post__graph-currency-country-us">USD</div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="post__graph-graph__box">
+            <div class="post__graph-graph__text-inner">
+              <div class="post__graph-graph__text">Chart of the amount of expenses and income KZT</div>
+              <div class="post__graph-indicators">
+                <div class="post__graph-indicators-yellow">
+                  income
+                </div>
+                <div class="post__graph-indicators-brown">
+                  expenses
+                </div>
+              </div>
+              <div class="post__graph-graph__links">
+                <a href="#"
+                  class="post__graph-graph-nav post__graph-graph-nav--today post__graph-graph-nav--active">today</a>
+                <a href="#" class="post__graph-graph-nav post__graph-graph-nav--week">week</a>
+                <a href="#" class="post__graph-graph-nav post__graph-graph-nav--month">month</a>
+                <a href="#" class="post__graph-graph-nav post__graph-graph-nav--3month">3 month</a>
+                <a href="#" class="post__graph-graph-nav post__graph-graph-nav--year">year</a>
+              </div>
+            </div>
+            <img src="../images/graph/4.png" alt="" class="post__graph-graph-img">
+            <div class="cursor--yellow"></div>
+            <div class="cursor--brown"></div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="post__box" id='support'>
+        <h1 class="post__title">support</h1>
+        <p class="post__subtitle">If you have any difficulties, then call us at the phone number: +7777 452 89
+          89<br>
+          Or send an email to our mail: finanlity@gmail.com<br>
+          We will try to answer immediately.
+        </p>
+      </div>
+
+  </section>
+
+
+  <section class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__logo">
+          <a href="#"><img src="../images/logo-2.png" alt="logo" class="footer__logo-img"></a>
+        </div>
+        <nav class="footer__nav">
+          <a href="services.html" class="footer__nav-link">Offer</a>
+          <a href="about.html" class="footer__nav-link">About company</a>
+          <a href="services.html" class="footer__nav-link">Services offered</a>
+          <a href="why-choose.html" class="footer__nav-link">Why Choose Us?</a>
+
+        </nav>
+        <nav class="footer__nav">
+          <a href="reviews.html" class="footer__nav-link">Comments</a>
+          <a href="profile.html" class="footer__nav-link">Personal account</a>
+          <a href="#" class="footer__nav-link">Questions and answers</a>
+          <a href="#" class="footer__nav-link">Our story</a>
+        </nav>
+        <div class="footer__social-box">
+          <div class="footer__social">
+            <a href="#"><img class="footer__social-item" src="../images/ico/pinterest.svg" alt="social"></a>
+            <a href="#"><img class="footer__social-item" src="../images/ico/vk.svg" alt="social"></a>
+            <a href="#"><img class="footer__social-item" src="../images/ico/facebook.svg" alt="social"></a>
+          </div>
+          <div class="footer__social">
+            <a href="#"><img class="footer__social-item" src="../images/ico/instagram.svg" alt="social"></a>
+            <a href="#"><img class="footer__social-item" src="../images/ico/telegram.svg" alt="social"></a>
+            <a href="#"><img class="footer__social-item" src="../images/ico/twitter.svg" alt="social"></a>
+          </div>
+        </div>
+        <div class="footer__contacts">
+          <h1 class="footer__contacts-title">
+            Contacts
+          </h1>
+          <a href="https://goo.gl/maps/RWTJRrNC6oC6pCUc7" class="footer__contacts-location">Almaty, st. Abay,
+            158
+          </a>
+          <a href="tel:77774528989" class="footer__contacts-tel">tel: +7 777 452 89 89
+          </a>
+          <a href="mailto:finanlity@gmail.com" class="footer__contacts-mail">E-mail: finanlity@gmail.com</a>
+          <div class="footer__contacts-time">Opening hours: from 8:00 to 20:00</div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__copy">© 2021 Finanlitcy | Financial literacy</div>
+        <div class="footer__links">
+          <a href="#" class="footer__link">Terms & conditions</a>
+          <a href="#" class="footer__link">Privacy policy</a>
+          <a href="#" class="footer__link">Cookies policy</a>
+          <a href="#" class="footer__link">Cookies Settings</a>
+        </div>
+        <div class="footer__apps">
+          <a href="#"><img class="footer__app" src="../images/google-play.png" alt="google"></a>
+          <a href="#"><img class="footer__app" src="../images/app-store.png" alt="google"></a>
+        </div>
+        <button class="footer__btn"></button>
+      </div>
+
+      <!-- For phone device -->
+
+      <div class="footer__top-mini">
+        <div class="footer__top-mini__inner">
+          <div class="footer__logo">
+            <a href="#"><img src="../images/logo-2.png" alt="logo" class="footer__logo-img"></a>
+          </div>
+          <div class="footer__copy">© 2021 Finanlitcy | Financial literacy</div>
+        </div>
+      </div>
+
+      <div class="footer__nav-mini">
+        <div class="footer__nav-mini__inner">
+          <nav class="footer__nav">
+            <a href="services.html" class="footer__nav-link">Offer</a>
+            <a href="about.html" class="footer__nav-link">About company</a>
+            <a href="services.html" class="footer__nav-link">Services offered</a>
+            <a href="why-choose.html" class="footer__nav-link">Why Choose Us?</a>
+          </nav>
+          <nav class="footer__nav">
+            <a href="reviews.html" class="footer__nav-link">Comments</a>
+            <a href="profile.html" class="footer__nav-link">Personal account</a>
+            <a href="#" class="footer__nav-link">Questions and answers</a>
+            <a href="#" class="footer__nav-link">Our story</a>
+          </nav>
+        </div>
+      </div>
+
+      <div class="footer__social-mini">
+        <div class="footer__social-mini__inner">
+          <div class="footer__social-box">
+            <div class="footer__social">
+              <a href="#"><img class="footer__social-item" src="../images/ico/pinterest.svg" alt="social"></a>
+              <a href="#"><img class="footer__social-item" src="../images/ico/vk.svg" alt="social"></a>
+              <a href="#"><img class="footer__social-item" src="../images/ico/facebook.svg" alt="social"></a>
+            </div>
+            <div class="footer__social">
+              <a href="#"><img class="footer__social-item" src="../images/ico/instagram.svg" alt="social"></a>
+              <a href="#"><img class="footer__social-item" src="../images/ico/telegram.svg" alt="social"></a>
+              <a href="#"><img class="footer__social-item" src="../images/ico/twitter.svg" alt="social"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__apps-mini">
+        <div class="footer__apps-mini__inner">
+          <div class="footer__apps">
+            <a href="#"><img class="footer__app" src="../images/google-play.png" alt="google"></a>
+            <a href="#"><img class="footer__app" src="../images/app-store.png" alt="google"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__contacts-mini">
+        <div class="footer__contacts-mini__inner">
+          <div class="footer__contacts">
+            <h1 class="footer__contacts-title">
+              Contacts
+            </h1>
+            <a href="https://goo.gl/maps/RWTJRrNC6oC6pCUc7" class="footer__contacts-location">Almaty, st.
+              Abay, 158
+            </a>
+            <a href="tel:77774528989" class="footer__contacts-tel">tel: +7 777 452 89 89
+            </a>
+            <a href="mailto:finanlity@gmail.com" class="footer__contacts-mail">E-mail:
+              finanlity@gmail.com</a>
+            <div class="footer__contacts-time">Opening hours: from 8:00 to 20:00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__links-mini">
+        <div class="footer__link-mini__inner">
+          <div class="footer__links">
+            <a href="#" class="footer__link">Terms & conditions</a>
+            <a href="#" class="footer__link">Privacy policy</a>
+            <a href="#" class="footer__link">Cookies policy</a>
+            <a href="#" class="footer__link">Cookies Settings</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="../js/slick.min.js"></script>
+  <script src="../js/jquery.fancybox.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+
+</html>
