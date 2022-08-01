@@ -1,0 +1,47 @@
+$black: #453D2B;
+$accent: #EAC682;
+$second-accent: #E1BC75;
+$yellow: #FED992;
+
+$bg: #EEEFEC;
+$gray: #EEEFED;
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  //font-family: 'Bellota Text', cursive;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  color: $black;
+  background-color: $bg;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
