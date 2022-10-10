@@ -1,10 +1,20 @@
 import React from "react";
+import { useState } from "react";
 import "../Header/Header.scss";
 
 const LangSwitcher = () => {
+  const [isActive, setActive] = useState("false");
+
+  const handleToggle = () => {
+    setActive(!isActive);
+  };
+
   return (
     <div>
-      <ul className="lang-switcher">
+      <ul
+        className={`lang-switcher ${isActive ? "active" : ""}`}
+        onClick={handleToggle}
+      >
         <a className="lang-ru">
           <li>RU</li>
         </a>
