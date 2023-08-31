@@ -1,7 +1,6 @@
 # Finanlitcy
 
 In general, this is my first website that was developed by me personally.
-And now, I'm starting to create this website using React.js
 
 This site consists of two languages: Russian and English.
 
