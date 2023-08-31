@@ -13,29 +13,29 @@ const header = () => {
           <div className="header__inner">
             <div className="header__side-left">
               <Burger />
-              <a href="ru-RU/index.html" className="header__logo">
+              <a href="#" className="header__logo">
                 <img src={Logo} alt="" />
               </a>
               <LangSwitcher />
             </div>
             <div className="header__side-center">
               <nav className="header__nav">
-                <a href="ru-RU/about.html" className="header__nav-link">
+                <a href="#" className="header__nav-link">
                   О НАC
                 </a>
-                <a href="ru-RU/services.html" className="header__nav-link">
+                <a href="#" className="header__nav-link">
                   УСЛУГИ И ЦЕНЫ
                 </a>
-                <a href="ru-RU/main.html" className="header__nav-link">
+                <a href="#" className="header__nav-link">
                   ГЛАВНАЯ
                 </a>
-                <a href="ru-RU/reviews.html" className="header__nav-link">
+                <a href="#" className="header__nav-link">
                   ОТЗЫВЫ
                 </a>
               </nav>
             </div>
             <div className="header__side-right">
-              <a href="ru-RU/sign-in.html" className="header__login">
+              <a href="#" className="header__login">
                 АВТОРИЗАЦИЯ
               </a>
               <a href="#" className="profile__avatar">
